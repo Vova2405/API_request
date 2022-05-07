@@ -1,0 +1,22 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run mocha --recursive ./src/**/__tests__/*",
+    "mocha": "mocha -r ts-node/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@doist/todoist-api-typescript": "^1.5.0",
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.43",
+    "chai": "^4.1.2",
+    "mocha": "^10.0.0",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.2"
+  }
+}
